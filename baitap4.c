@@ -11,7 +11,6 @@ int main(){
 	printf("nhap thong tin cac sinh vien\n");
 	printf("\n");
 		int i;
-
 		for(i=0;i<5;i++){
 			printf("moi nhap thong tin sinh vien %d\n",i+1);
 			fflush(stdin);
@@ -25,13 +24,12 @@ int main(){
             printf("\n");
         }
     printf("\n");
-    printf("in thong tin sinh vien cac sinh vien\n");
-    printf("\n");
+    printf("in thong tin cac sinh vien\n");
         int count=0;
 		for(i=0;i<5;i++){
             count++;
-			printf("          --thong tin sinh vien %d--\n",i+1);
-            printf("Id sinh vien %d la: %d\n",i+1,count);
+			printf("\n--thong tin sinh vien %d--\n",i+1);
+            printf("Id sinh vien %d la: %d",i+1,count);
 			printf("ho va ten sinh vien sinh vien %d la:  %s",i+1,students[i].fullName);
 		    printf("Tuoi sinh vien sinh vien %d la:  %d\n",i+1,students[i].age);
 		    printf("so dien thoai sinh vien sinh vien %d la: %s",i+1,students[i].phone);
