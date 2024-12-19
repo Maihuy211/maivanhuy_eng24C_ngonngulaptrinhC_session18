@@ -23,7 +23,7 @@ int main(){
             printf("\n");
         }
     printf("\n");
-    printf("in thong tin sinh vien cac sinh vien\n");
+    printf("in thong tin cac sinh vien\n");
     printf("\n");
         for(i=0;i<5;i++){
             printf("--thong tin sinh vien %d--\n",i+1);
